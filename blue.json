@@ -1,0 +1,19 @@
+{
+    "components": {
+        "hw": {
+            "type": "@demoexts.lambda",
+            "function_name": "Hello-World",
+            "description": "Emlyn's Hello World Lambda",
+            "timeout": 300,
+            "role": "@demo.the_role"
+        }
+    },
+    "repos": {
+        "demoexts": {
+            "url": "https://github.com/cloudkommand/lambdademoext"
+        },
+        "demo": {
+            "url": "https://github.com/cloudkommand/lambdademo"
+        }
+    }
+}
