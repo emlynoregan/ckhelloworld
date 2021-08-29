@@ -9,7 +9,7 @@
         },
         "layer": {
             "type": "@ck1.layer",
-            "compatible_runtimes": ["Python3.8"]
+            "compatible_runtimes": ["python3.8"]
         }
     },
     "repos": {
