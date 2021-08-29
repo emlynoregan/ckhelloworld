@@ -5,7 +5,10 @@
             "function_name": "Hello-World",
             "description": "Emlyn's Hello World Lambda",
             "timeout": 300,
-            "role": "@demo.the_role"
+            "role": "@demo.the_role",
+            "layers": [
+                {"version_arn": "@layer:props.LayerVersionArn"}
+            ]
         },
         "layer": {
             "type": "@ck1.layer",
