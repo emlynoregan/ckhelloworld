@@ -6,6 +6,10 @@
             "description": "Emlyn's Hello World Lambda",
             "timeout": 300,
             "role": "@demo.the_role"
+        },
+        "layer": {
+            "type": "@ck1.layer",
+            "compatible_runtimes": ["Python3.8"]
         }
     },
     "repos": {
@@ -14,6 +18,9 @@
         },
         "demo": {
             "url": "https://github.com/cloudkommand/lambdademo"
+        },
+        "ck1": {
+            "url": "https://github.com/emlynoregan/ck1"
         }
     }
 }
